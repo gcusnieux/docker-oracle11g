@@ -1,5 +1,5 @@
 docker-oracle11g
-========================
+================
 
 Docker + Oralce Linux 6.5 + Oracle Database 11gR2 (Enteprise Edition) setup.
 Does not include the DB11g binary.
