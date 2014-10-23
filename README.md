@@ -46,7 +46,7 @@ $ sudo docker run -d -p 0.0.0.0:2222:22 -v /$path/docker-oracle11g:/shared -e RO
 
 Install Database.
 ```
-$ sudo ssh -p 2222 root@0.0.0.0
+$ ssh -p 2222 root@0.0.0.0
 
 bash-4.1# su - oracle
 
@@ -67,7 +67,7 @@ $ sudo docker restart <CONTAINER_ID>
 
 Create listener using netca.
 ```
-$ sudo ssh -p 2222 root@0.0.0.0
+$ ssh -p 2222 root@0.0.0.0
 
 bash-4.1# su - oracle
 
